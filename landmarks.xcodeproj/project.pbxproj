@@ -27,6 +27,7 @@
 		7A016A7C29A409DD005D0B8B /* FeatureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A016A7B29A409DD005D0B8B /* FeatureCardView.swift */; };
 		7A016A7E29A40CB8005D0B8B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A016A7D29A40CB8005D0B8B /* PageViewController.swift */; };
 		7A016A8029A40DEB005D0B8B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A016A7F29A40DEB005D0B8B /* PageView.swift */; };
+		7A016A8229A41571005D0B8B /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A016A8129A41571005D0B8B /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		7A016A7B29A409DD005D0B8B /* FeatureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardView.swift; sourceTree = "<group>"; };
 		7A016A7D29A40CB8005D0B8B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7A016A7F29A40DEB005D0B8B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		7A016A8129A41571005D0B8B /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				7A016A7B29A409DD005D0B8B /* FeatureCardView.swift */,
 				7A016A7D29A40CB8005D0B8B /* PageViewController.swift */,
 				7A016A7F29A40DEB005D0B8B /* PageView.swift */,
+				7A016A8129A41571005D0B8B /* PageControl.swift */,
 			);
 			path = Featured;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				7A016A7029A3DF23005D0B8B /* MapView.swift in Sources */,
 				7A016A7C29A409DD005D0B8B /* FeatureCardView.swift in Sources */,
 				7A016A7829A3FDEE005D0B8B /* MainView.swift in Sources */,
+				7A016A8229A41571005D0B8B /* PageControl.swift in Sources */,
 				7A016A5C29A3D229005D0B8B /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
