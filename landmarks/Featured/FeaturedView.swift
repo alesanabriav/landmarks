@@ -13,11 +13,8 @@ struct FeaturedView: View {
     var body: some View {
         NavigationView {
             List {
-                viewModel.features[0].image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(height: 200)
-                    .clipped()
+                PageView(pages: LandmarkViewModel().features.map { FeatureCardView(landmark: $0) })
+                    .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
                 ForEach(viewModel.categories.keys.sorted(), id: \.self) { key in
