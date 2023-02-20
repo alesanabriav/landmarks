@@ -11,7 +11,8 @@ import SwiftUI
 struct landmarksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(LandmarkViewModel())
         }
     }
 }
